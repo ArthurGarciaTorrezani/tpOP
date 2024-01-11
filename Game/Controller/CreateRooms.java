@@ -152,46 +152,48 @@ public class CreateRooms {
         wano.setExit("norte",fim);
 
         // create items and trunks
-        shellsTown.createItem("batata", 1, 3, "batata",1);
+        shellsTown.createItem("nham nham batatinha", 1, 3, "batata",1);
         shellsTown.createItem("te da a direção correta", 1, 3, "bussola",0);
 
-        orangeTown.createItem("carne", 3, 1, "carne",3);
+        orangeTown.createItem("picanha? malou", 3, 1, "carne",3);
         orangeTown.createItem("espada", 1, 1, "espada",0);
 
         islandsGecko.createItem("chave", 1, 1, "chave",0); // chave 1
-        islandsGecko.createItem("batata", 1, 3, "batata",1);
+        islandsGecko.createItem("nham nham batatinha", 1, 3, "batata",1);
+        islandsGecko.createItem("te da a direção correta", 1, 2, "bussola",0);
 
         baratie.createItem("peixe", 1, 1, "peixe",1);
-        baratie.createItem("agua", 2, 1, "agua",2);
+        baratie.createItem("sede? jamais", 2, 1, "agua",2);
 
-        villageCocoyasi.createItemTrunk("poneglifo", 1, 1, "poneglifo",0); // bau 1
+        villageCocoyasi.createItemTrunk("item essencial para sua jornada", 1, 1, "poneglifo",0); // bau 1
         villageCocoyasi.createItemTrunk("chave", 1, 1, "chave",0); // chave 2
 
-        logueTown.createItemTrunk("poneglifo", 1, 1, "poneglifo",0); // bau 2
-        logueTown.createItemTrunk("bussola", 1, 1, "bussola",0);
+        logueTown.createItemTrunk("item essencial para sua jornada", 1, 1, "poneglifo",0); // bau 2
+        logueTown.createItemTrunk("te da a direção correta", 1, 1, "bussola",0);
         logueTown.createItemTrunk("saque", 4, 3, "saque",4);
 
         islandCactus.createItemTrunk("espada", 1, 1, "espada",3); // bau 3
-        islandCactus.createItem("agua", 2, 1, "agua",2);
+        islandCactus.createItem("sede? jamais", 2, 1, "agua",2);
 
         littleGarden.createItem("chave", 1, 1, "chave",0); // chave 3
-        littleGarden.createItem("carne", 3, 1, "carne",3);
+        littleGarden.createItem("picanha? malou", 3, 1, "carne",3);
 
         alabasta.createItem("chave", 1, 2, "chave",0); // chave 4
-        alabasta.createItemTrunk("poneglifo", 1, 2, "poneglifo",0); // bau 4
+        alabasta.createItemTrunk("item essencial para sua jornada", 1, 2, "poneglifo",0); // bau 4
         alabasta.createItemTrunk("saque", 4, 3, "saque",4);
-        alabasta.createItemTrunk("batata", 1, 1, "batata",1);
+        alabasta.createItemTrunk("nham nham batatinha", 1, 1, "batata",1);
 
 
         skypiea.createItem("saque", 4, 3, "saque",4);
         skypiea.createItem("chave", 1, 3, "chave", 0); // chave 5
 
-        enniesLobby.createItem("batata", 1, 3, "batata",1);
+        enniesLobby.createItem("nham nham batatinha", 1, 3, "batata",1);
+        enniesLobby.createItem("te da a direção correta", 1, 1, "bussola",0);
 
-        sabaody.createItem("traje", 1, 1, "traje",0);
-        sabaody.createItem("agua", 2, 1, "agua",2);
+        sabaody.createItem("te deixa bonitinho", 1, 1, "traje",0);
+        sabaody.createItem("sede? jamais", 2, 1, "agua",2);
 
-        marineFord.createItem("poneglifo", 1, 2, "poneglifo",0); // bau 5
+        marineFord.createItem("item essencial para sua jornada", 1, 2, "poneglifo",0); // bau 5
         marineFord.createItem("espada lendaria", 1, 1, "espada lendaria",0);
         marineFord.createItemTrunk("saque", 4, 3, "saque",4);
 
